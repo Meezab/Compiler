@@ -1,0 +1,9 @@
+NAME,TYPE
+numPrint,int
+num,int
+length,int
+i,int
+j,int
+first,int
+temp,int
+a,char

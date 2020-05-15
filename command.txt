@@ -1,0 +1,6 @@
+//this is the command we wortoe in bashsrc and it worked and our code started compiling using "cmm test2.cmm"
+cmm () {
+  num=${1:-5}
+  gcc compiler.c -o exeStr
+  ./exeStr $num
+}

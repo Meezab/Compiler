@@ -1,0 +1,11 @@
+//Updated Symbol table by Translator for test.cmm
+numPrint , int , 0
+num , int , 0
+length , int , 4
+i , int , 8
+j , int , 12
+first , int , 16
+temp , int , 20
+a , char , 24
+tempa , int , 25
+tempb , int , 29

@@ -1,0 +1,30 @@
+//Three address code for test.cmm
+
+0) 	a <- 'x'
+1) 	temp <- 0
+2) 	cout << "enter_number"
+3) 	in >> i
+4) 	cout << i
+5) 	i <- length
+6) Label0:
+7) 	if i > 0 goto Label1
+8) 	goto Label2
+9) Label1:
+10) 	first <- 0
+11) 	j <- 1
+12) Label3:
+13) 	if j < i goto Label4
+14) 	goto Label5
+15) Label4:
+16) 	cout << j
+17) 	tempa <- j + 1
+18) 	j <- tempa
+19) 	goto Label3
+20) Label5:
+21) 	tempb <- i - 1
+22) 	i <- tempb
+23) 	goto Label0
+24) Label2:
+25) 	cout << "temp_is"
+26) 	cout << temp
+27) 	out >> i
